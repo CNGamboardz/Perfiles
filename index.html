@@ -4,31 +4,84 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Nuestros perfiles</title>
+    <style>
+        body {
+            /* Ubicación de la imagen */          
+            background-color: gray;      
+            /* Para dejar la imagen de fondo centrada, vertical y horizontalmente */  
+            background-position: center center;
+            /* Para que la imagen de fondo no se repita */          
+            background-repeat: no-repeat;    
+            /* La imagen se fija en la ventana de visualización para que la altura de la imagen no supere a la del contenido */           
+            background-attachment: fixed;           
+            /* La imagen de fondo se reescala automáticamente con el cambio del ancho de ventana del navegador */          
+            background-size: cover;         
+            /* Se muestra un color de fondo mientras se está cargando la imagen  de fondo o si hay problemas para cargarla */          
+            background-color: gray;         
+            }
+            a{
+                height: 25px;
+                width: 100px;
+                background-color: brown;
+                padding: 20px;
+                color: white;
+                margin-top: 20px;
+                margin-left: 40px;
+                text-decoration: none;
+            }
+            a:hover{
+                background-color: blue;
+            }
+    </style>
 </head>
-<body>
+
+<body width = "100%">
     <table width = "100%">
+
         <tr> <!--Encabezado-->
             <td colspan="2">
                 <img src="IMAGENES/Logo_unach.jpg" width="100%" height="200">
             </td>
         </tr>
-
-        <tr><!--Menú-->
+        <table>
+        <tr  rowspan="5" width="20%"><!--Menú-->
             <td>
-        <a href="erick.html">Perfil de Erick</a>
-        <a href="brenda.html">Perfil de Brenda</a>
-        <a href="horacio.html">Perfil de Horacio</a>
-        <a href="mariajose.html">Perfil de Maria Jose</a>
-        <a href="hervin.html">Perfil de Hervin</a>
-           </td>
+        <a href="erick.html">Perfil de Erick</a><br><br><br>
+        <img src="IMAGENES/Perfil_Erick.jpeg" width="100px" height="100px"><br>
+    </td>
+
+    <td>
+        <a href="brenda.html">Perfil de Brenda</a><br><br><br>
+        <img src="IMAGENES/Perfil-Brenda.jpg" width="100px" height="100px"><br>
+    </td>
+
+    <td>
+        <a href="horacio.html">Perfil de Horacio</a><br><br><br>
+        <img src="" width="100px" height="100px">
+    </td>
+
+    <td>
+        <a href="mariajose.html">Perfil de Maria Jose</a><br><br><br>
+        <img src="" width="100px" height="100px"><br>
+    </td>
+
+    <td>
+        <a href="hervin.html">Perfil de Hervin</a><br><br><br>
+        <img src="IMAGENES/Hervin.jpeg" width="100px" height="100px"><br>
+    </td>
+
     </tr>
 
-    <tr>
-        <td>
-
+    <tr height="100%" bgcolor="purple"> <!--Pie de página--> <br><br>
+        <td colspan="5">
+            <h3>Licenciatura en Sistemas Computacionales</h3>
+            <p>&copy; Copyright 2024. Nuestros Perfiles 5J</p>
         </td>
     </tr>
 
 </table>
+
+</table>
+
 </body>
 </html>
